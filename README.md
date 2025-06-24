@@ -75,15 +75,11 @@ npm install
 
 ## 🖼️ Inside Look
 
-- ![Home Page](https://imgur.com/ty8DN3D)
-- ![Explore Page](https://i.imgur.com/your_explore.png)
-- ![Add Gem Page](https://i.imgur.com/your_addgem.png)
-- ![Dashboard](https://i.imgur.com/your_dashboard.png)
-
-![Screen Shot 2023-08-13 at 6 17 17 PM]([https://imgur.com/ty8DN3D])
-![Screen Shot 2023-08-12 at 10 01 12 PM](https://github.com/braydonwang/Hidden-Gems/assets/16049357/9790d63d-64cf-4bec-9724-72fcbe5763f8)
-<img width="350" alt="Screen Shot 2023-08-12 at 10 02 29 PM" src="https://github.com/braydonwang/Hidden-Gems/assets/16049357/48decde8-7383-4930-a767-24f9709edeec">
-<img width="350" alt="Screen Shot 2023-08-12 at 10 02 29 PM" src="https://github.com/braydonwang/Hidden-Gems/assets/16049357/3cb5e49a-bf78-4da4-b57c-4a34e6a7aded">
+ ![Home Page](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202057.png)
+ ![Home Screenshot](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202140.png)
+<img width="350" alt="Screen Shot 2023-08-12 at 10 02 29 PM" src="https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202218.png">
+<img width="350" alt="Screen Shot 2023-08-12 at 10 02 29 PM" src="https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202242.png">
+![Home Screenshot](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202340.png)
 
 ## Next Steps
 
