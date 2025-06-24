@@ -17,7 +17,7 @@ A beautiful, modern web app for cataloging and discovering your favorite small s
 
 ## 🚀 Live Demo
 
-> [https://secretgems.netlify.app/]
+> https://secretgems.netlify.app/
 
 ### ✨ Features:
 
@@ -155,4 +155,4 @@ If you encounter any issues:
 - [ ] Mobile app versions
 - [ ] Admin panel for moderation
 
-**Built with ❤️ using HTML, CSS, JavaScript, and Firebase** 
+**Built with ❤️ using HTML, CSS, JavaScript, Imgur API and Firebase** 
