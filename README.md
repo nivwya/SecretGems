@@ -11,25 +11,25 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## ✨ About The Project
+## About The Project
 
 A beautiful, modern web app for cataloging and discovering your favorite small stores, budget-friendly restaurants, and local events. Share secret gems in your area and explore recommendations from others!
 
-## 🚀 Live Demo
+## Live Demo
 
 > https://secretgems.netlify.app/
 
-### ✨ Features:
+### Features:
 
-- 📍 **Add Gems**: Share your favorite places and events with details, ratings, and images.
-- 🔎 **Explore**: Search and filter gems by type, location (city/state/country), and budget.
-- 👤 **Dashboard**: View your added gems, stats, and manage your collection.
-- 🖼 **Image Uploads**: Images are hosted via Imgur for easy sharing.
-- 🔐 **Authentication**: Register or sign in with email/password (or try anonymous login).
-- 📱 **Responsive UI**: Modern, mobile-friendly design with a golden-blue aesthetic.
-- 🧪 **Demo Mode**: Try the app without Firebase setup (data is not saved).
+-  **Add Gems**: Share your favorite places and events with details, ratings, and images.
+-  **Explore**: Search and filter gems by type, location (city/state/country), and budget.
+-  **Dashboard**: View your added gems, stats, and manage your collection.
+-  **Image Uploads**: Images are hosted via Imgur for easy sharing.
+-  **Authentication**: Register or sign in with email/password (or try anonymous login).
+-  **Responsive UI**: Modern, mobile-friendly design with a golden-blue aesthetic.
+-  **Demo Mode**: Try the app without Firebase setup (data is not saved).
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Firebase Firestore (database), Firebase Auth, Imgur API (image hosting)
@@ -81,7 +81,7 @@ npm install
 <img width="350" alt="Screen Shot 2023-08-12 at 10 02 29 PM" src="https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202242.png">
 ![Home Screenshot](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202340.png)
 
-## 📱 How to Use
+##  How to Use
 
 ### Adding a Hidden Gem
 1. Click "Add Gem" in the navigation
@@ -109,7 +109,7 @@ npm install
 - See all gems you've added
 - Track your average ratings and locations
 
-## 🎨 Customization
+##  Customization
 
 ### Colors and Styling
 The app uses a beautiful purple gradient theme. To customize:
@@ -132,11 +132,11 @@ The app uses a beautiful purple gradient theme. To customize:
 - [ ] Make app compatible for mobile view
 - [ ] Polish and deploy 🚀
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🆘 Support
+##  Support
 
 If you encounter any issues:
 1. Check the browser console for errors
@@ -144,7 +144,7 @@ If you encounter any issues:
 3. Ensure all Firebase services are enabled
 4. Check the network tab for failed requests
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - [ ] User authentication and profiles
 - [ ] Comments and reviews system
