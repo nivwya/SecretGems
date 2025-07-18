@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Hidden Gems</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <h1>Hidden Gems App Test</h1>
+    
+    <div class="test-section">
+        <h3>File Check:</h3>
+        <div id="fileCheck"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>Firebase Config Check:</h3>
+        <div id="firebaseCheck"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>Demo Data Check:</h3>
+        <div id="demoCheck"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>Navigation Test:</h3>
+        <button onclick="testNavigation()">Test Navigation</button>
+        <div id="navTest"></div>
+    </div>
+
+    <script>
+        // Test file existence
+        function checkFiles() {
+            const files = ['index.html', 'styles.css', 'script.js', 'firebase-config.js'];
+            const fileCheck = document.getElementById('fileCheck');
+            
+            files.forEach(file => {
+                fetch(file)
+                    .then(response => {
+                        if (response.ok) {
+                            fileCheck.innerHTML += `<div class="success">✅ ${file} - Found</div>`;
+                        } else {
+                            fileCheck.innerHTML += `<div class="error">❌ ${file} - Not found</div>`;
+                        }
+                    })
+                    .catch(error => {
+                        fileCheck.innerHTML += `<div class="error">❌ ${file} - Error: ${error.message}</div>`;
+                    });
+            });
+        }
+        
+        // Test Firebase config
+        function checkFirebaseConfig() {
+            const firebaseCheck = document.getElementById('firebaseCheck');
+            try {
+                // Try to load firebase-config.js
+                const script = document.createElement('script');
+                script.src = 'firebase-config.js';
+                script.onload = () => {
+                    if (typeof firebaseConfig !== 'undefined') {
+                        firebaseCheck.innerHTML = `<div class="success">✅ Firebase config loaded: ${firebaseConfig.projectId}</div>`;
+                    } else {
+                        firebaseCheck.innerHTML = `<div class="error">❌ Firebase config not found</div>`;
+                    }
+                };
+                script.onerror = () => {
+                    firebaseCheck.innerHTML = `<div class="error">❌ Could not load firebase-config.js</div>`;
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                firebaseCheck.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+        
+        // Test demo data
+        function checkDemoData() {
+            const demoCheck = document.getElementById('demoCheck');
+            const demoData = [
+                { name: 'Test Restaurant', type: 'restaurant', city: 'Test City', state: 'Test State' }
+            ];
+            
+            if (demoData.length > 0) {
+                demoCheck.innerHTML = `<div class="success">✅ Demo data available: ${demoData.length} items</div>`;
+            } else {
+                demoCheck.innerHTML = `<div class="error">❌ No demo data</div>`;
+            }
+        }
+        
+        // Test navigation
+        function testNavigation() {
+            const navTest = document.getElementById('navTest');
+            const pages = ['home', 'explore', 'add-gem', 'dashboard'];
+            
+            pages.forEach(page => {
+                const element = document.getElementById(page);
+                if (element) {
+                    navTest.innerHTML += `<div class="success">✅ ${page} page found</div>`;
+                } else {
+                    navTest.innerHTML += `<div class="error">❌ ${page} page not found</div>`;
+                }
+            });
+        }
+        
+        // Run tests
+        window.onload = function() {
+            checkFiles();
+            checkFirebaseConfig();
+            checkDemoData();
+        };
+    </script>
+</body>
+</html> 
