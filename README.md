@@ -17,7 +17,7 @@ A beautiful, modern web app for cataloging and discovering your favorite small s
 
 ## Live Demo
 
-> https://secretgems.netlify.app/
+> [https://secretgems.netlify.app/](https://secretgems.netlify.app/)
 
 ### Features:
 
