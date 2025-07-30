@@ -136,21 +136,6 @@ The app uses a beautiful purple gradient theme. To customize:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-##  Support
-
-If you encounter any issues:
-1. Check the browser console for errors
-2. Verify your Firebase configuration
-3. Ensure all Firebase services are enabled
-4. Check the network tab for failed requests
-
-##  Future Enhancements
-
-- [ ] User authentication and profiles
-- [ ] Comments and reviews system
-- [ ] Map integration with location pins
-- [ ] Social sharing features
-- [ ] Push notifications for new gems
 - [ ] Advanced search with geolocation
 - [ ] Mobile app versions
 - [ ] Admin panel for moderation
