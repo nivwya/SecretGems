@@ -29,7 +29,7 @@ A beautiful, modern web app for cataloging and discovering your favorite small s
 -  **Responsive UI**: Modern, mobile-friendly design with a golden-blue aesthetic.
 -  **Demo Mode**: Try the app without Firebase setup (data is not saved).
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Firebase Firestore (database), Firebase Auth, Imgur API (image hosting)
@@ -73,7 +73,7 @@ npm install
 5. Run the app:
 - Open index.html in your browser.
 
-## 🖼️ Inside Look
+## Inside Look
 
  ![Home Page](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202057.png)
  ![Home Screenshot](https://raw.githubusercontent.com/nivwya/SecretGems/2592d8e516719239e7a2e74ae7c29040159baa24/Screenshot%202025-06-24%20202140.png)
